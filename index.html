@@ -1,2 +1,9 @@
 <h1>I Love Alisa</h1>
-<input type='bar'/>
+<script>
+  onClick = () =>{
+  const newElement = document.createElement('div');
+  newElement.textContent = 'I love you!'
+  document.body.appendChild(newElement)
+  }
+</script>
+<button onClick='onClick()'>Click</button>
